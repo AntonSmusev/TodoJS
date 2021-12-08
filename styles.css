@@ -1,311 +1,179 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-.changeLang{
-position: relative;
+.content{
 width: 1366px;
+width: 100%;
 height: 768px;
-
+height: 100vh;
+margin: auto;
+font-family: Inter;
 background: #ffffff;
 border: 1px solid #000000;
-box-sizing: border-box;
 }
-.rect1{
-position: absolute;
+.content__zone{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 621px;
+  height: 438px;
+  margin: auto;
+}
+.content__inputzone{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.content__input{
+display: flex;
 width: 400px;
 height: 50px;
-left: 412px;
-top: 50px;
-
+outline:none;
+  border: none;
 background: #F1F1F1;
 border-radius: 10px;
 }
- .rect1Bottom{
+ .input__bottom{
   display: flex;
-  flex-direction: row;
   align-items: center;
-  padding: 18px 30px;
-  
-  position: absolute;
-  width: 40px;
-  height: 10px;
-  left: 847px;
-  top: 50px;
+  justify-content: center;
+  width: 106.52px;
+  height: 50px;
   
   background: #A672FF;
   border-radius: 10px;
   }
+  .input__bottom:hover{
+    cursor: pointer;
+  }
       .rect1BottomText{
-     position: static;
-     width: 106.52px;
-     height: 50px;
-     left: 30px;
-     top: 15.5px;
-     
      font-family: Inter;
      font-style: normal;
      font-weight: 600;
      font-size: 16px;
-     line-height: 19px;
-     display: flex;
-     align-items: center;
-     text-align: center;
-
      color: #FFFFFF;
-
       }
-.rect2{
-    position: absolute;
+.content__punkts{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 135px;
+        padding-bottom: 41px;
+       
+        
+      }
+.punkt__1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 621px;
     height: 60px;
-    left: 372px;
-    top: 156px;
-    
-    background: #F1F1F1;
+background-color: #F1F1F1;;
     border-radius: 10px;
 }
-    .circleRect2{
-     position: absolute;
+.punkt__1left{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+
+
+}
+    .punkt__1__circle{
+     display: flex;
       width: 30px;
      height: 30px;
-     left: 0px;
-     top: 0px;
-     margin: 15px 25px;
-     
      background: #F1F1F1;
      border: 1px solid #A672FF;
-     box-sizing: border-box;
      border-radius: 50px;
      }
-     .rect2Text{
-        position: absolute;
-        width: 141px;
-        height: 23px;
-        margin: 20px 60px;
-        
-        font-family: Inter;
-        font-style: normal;
+     .circleRect3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      background: #A672FF;
+      border-radius: 50px;
+    } 
+     .punk1__1__text{
+        display: flex;
         font-weight: 500;
         font-size: 20px;
-        line-height: 24px;
-        
-        text-align: center;
+        font-weight: 600;
         
         color: #222222;
      }
-  .rect2Punkt1{
-    position: absolute;
+     .punkt__1right{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      padding-right: 24px;
+      width: 76px;
+     }
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30px;
     height: 30px;
-    left: 893px;
-    top: 171px;
-    
     background: #F5F5F5;
     border-radius: 10px;
   }
-     .rect2Punkt1Image{
-      position: absolute;
+     .icon__image1{
+      display: flex;
       width: 12.95px;
       height: 12.93px;
       margin: 8px;
-      
-      background-image: url(images/Group1.png);
-
+      background-image: url(image/Group1.png);
      }
-  .rect2Punkt2{
-   position: absolute;
-   width: 30px;
-   height: 30px;
-   left: 939px;
-   top: 171px;
-        
-   background: #F5F5F5;
-   border-radius: 10px;
-     }
-     .rect2Punkt2Image{
-     position: absolute;
+     .icon1__image2{
+      display: flex;
      width: 9.9px;
      height: 13.71px;
      margin: 8px;
-         
-     background-image: url(images/Group2.png);
-         }
-.rect3{
-    position: absolute;
-    width: 621px;
-    height: 60px;
-    left: 372px;
-    top: 231px;
-    
-    background: #F1F1F1;
-    border-radius: 10px;}
-      .circleRect3{
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        margin: 15px 25px;
-        
-        background: #A672FF;
-        border-radius: 50px;
-      } 
-         .circleRect3Img{
-            position: absolute;
+     background-image: url(image/Group2.png);
+    }
+.circleRect3Img{
+           display: flex;
             width: 20px;
             height: 15px;
-            margin: 5px;
-           
-            border: 0px solid #FFFFFF;
-            background-image: url(images/Vector.png);
+            background-image: url(image/Vector.png);
+          }
          }
-         .Rect3Text{
-            position: absolute;
-            width: 141px;
-            height: 23px;
-           
-            margin: 20px 60px;
-            font-family: Inter;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 24px;
-            /* or 120% */
-            
-            text-align: center;
-            
-            color: #222222;
-            
-         }
-        .line1{
-          position: absolute;
+        .line{
+          display: flex;
           width: 142.01px;
           height: 1px;
-          left: 60px;
-          top: 32px;
+          
           background-color:#A672FF; ;
           border: 1px solid #A672FF;
         }
-    .rect3Punkt1{
-     position: absolute;
-     width: 30px;
-     height: 30px;
-     left: 520px;
-     top: 15px;
-
-     background: #F5F5F5;
-     border-radius: 10px;
-     }
-     .rect3Punkt1Image{
-        position: absolute;
-        width: 12.95px;
-        height: 12.93px;
-        margin: 8px;
-        
-        background-image: url(images/Group1.png);
-     }
-     .rect3Punkt2{
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        left: 45px;
-        top: 0px;
-             
-        background: #F5F5F5;
-        border-radius: 10px;
-          }
-          .rect3Punkt2Image{
-          position: absolute;
-          width: 9.9px;
-          height: 13.71px;
-          margin: 8px;
-              
-          background-image: url(images/Group2.png);
-              }
-.rect4{
-  position: absolute;
+    
+.content__footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 621px;
   height: 50px;
-  top: 197px;
-  
   background: #F1F1F1;
   border-radius: 10px;
 }
- .rect4Bottom1{
-   position: absolute;
+ .footer__bottom{
+   display: flex;
+   justify-content: center;
+   align-items: center;
    width: 127px;
    height: 28px;
-   margin: 12px   50px;
-   
-   background: #A672FF;
+   font-weight: 600;
+   font-size: 14px;
+   color: #A672FF;
+   background: #FFFFFF;
+   border: 1px solid #A672FF;
    border-radius: 10px;
  }
-     .rect4Bottom1Text{
-     position: absolute;
-     width: 31px;
-     height: 23px;
-    
-   
-     font-family: Inter;
-     font-style: normal;
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 24px;
-     /* or 171% */
-     margin: 3px   45px;
-     text-align: center;
-
-     color: #F5F5F5
+ .footer__bottom:hover{
+   color: #F5F5F5;
+   background-color: #A672FF;
+   cursor: pointer;
  }
-
-  .rect4Bottom2{
-    position: absolute;
-    width: 127px;
-    height: 28px;
-    margin: 12px   200px;
-    
-    background: #FFFFFF;
-    border: 1px solid #A672FF;
-    box-sizing: border-box;
-    border-radius: 10px;
-  }
-     .rect4Bottom2Text{
-     position: absolute;
-     width: 100px;
-     height: 23px;
-     margin: 3px   15px;
-        
-     font-family: Inter;
-     font-style: normal;
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 24px;
-     text-align: center;
      
-     color: #A672FF;
-     }
- .rect4Bottom3{
-    position: absolute;
-    width: 127px;
-    height: 28px;
-    margin: 12px   350px;
-    
-    background: #FFFFFF;
-    border: 1px solid #A672FF;
-    box-sizing: border-box;
-    border-radius: 10px;
 
-  }
-  .rect4Bottom3Text{
-    position: absolute;
-    width: 102px;
-    height: 23px;
-    margin: 3px   15px;
-    
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    
-    text-align: center;
-    
-    color: #A672FF;
-  }
